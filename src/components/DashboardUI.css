@@ -1,0 +1,14 @@
+.dashboard-heading{
+    color: #001F7B;
+    text-decoration: underline;
+    padding: 35px 169px 10px 114px;
+    /* border: 2px solid black; */
+    /* text-underline-offset: auto; */
+}
+#dashboard{
+       margin: -107px 0.1rem 0px 318px;
+    width: 79vw;
+    height: 1045px;
+    background-color: #928F9A;
+    /* border: 5px solid blue; */
+}

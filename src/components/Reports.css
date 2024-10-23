@@ -1,0 +1,71 @@
+/* General container styling */
+.reports-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#Reports-section{
+    width:100vw;
+    height:100vh;
+    /* border:solid black; */
+    margin-top: 10px;
+}
+/* Heading styling */
+.reports-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333; /* Dark color for text */
+}
+
+/* Filter section styling */
+.filter-section {
+    margin-bottom: 20px;
+}
+
+.filter-section input {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px;
+    width: 100%; /* Full width */
+    max-width: 400px; /* Max width for the input */
+}
+
+/* Chart container styling */
+.chart-container {
+    margin-bottom: 30px; /* Space below the chart */
+}
+
+.chart-container h2 {
+    margin-bottom: 10px;
+    color: #555; /* Slightly lighter color for chart title */
+}
+
+/* Table styling */
+.reports-table {
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 6.1rem 8.1rem 1.1rem 1.1rem;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reports-table table {
+    width: 100%; /* Full width of the container */
+    border-collapse: collapse; /* Remove gaps between borders */
+}
+
+.reports-table th, .reports-table td {
+    padding: 12px; /* Space inside table cells */
+    text-align: left; /* Align text to the left */
+    border-bottom: 1px solid #ddd; /* Light gray border below rows */
+}
+
+.reports-table th {
+    background-color: #f2f2f2; /* Light gray for header */
+    color: #333; /* Dark text for header */
+}
+
+.reports-table tr:hover {
+    background-color: #f5f5f5; /* Light gray on row hover */
+}

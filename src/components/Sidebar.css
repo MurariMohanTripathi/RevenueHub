@@ -1,0 +1,36 @@
+.SidePanel {
+    background-color: #BCE6ff;
+    width: 320px;
+    height: 1024px;
+    margin: 0px 10px 10px 0px;
+    /* overflow: auto; */
+}
+
+a {
+    text-decoration: none;
+    color: #06349A;
+    font-size: 43px;
+    font-weight: bold;
+}
+
+.refs {
+    /* border: 2px solid black; */
+    padding: 10.1rem 10px 10px 10px;
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Dashboard {
+    margin: 37px 10px 23px 0px;
+    /* padding: 10px 12px 10px 15px; */
+}
+.Leads{
+    margin: 0px 111px 10px 0px;
+}
+.Analytics{
+    margin: 26px 45px 10px 0px;
+}
+.Reports{
+    margin: 26px 75px 10px 10px;
+}
