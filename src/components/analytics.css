@@ -1,10 +1,10 @@
 .analytics{
     margin: 66px 0px 10px 0px;
-    background-color: #779999;
+    background-color: #99778a;
     width: 100vw;
-    height: 1024px;
+    height: 880px;
 }
 .heading-analytics{
-    color:#001F7B;
-    text-decoration: underline;
+    color:#1e1f20;
+    /* text-decoration: underline; */
 }

@@ -9,7 +9,7 @@ export default function DashboardUI() {
   return (
     <div>
       <div className='dashboard' id='dashboard'>
-        <h1 className='dashboard-heading'>Dashboard</h1>
+        <h1 className='dashboard-heading'>RevenueHub-Dashboard</h1>
       </div>
       <DashboardChart />
       <BarChart />

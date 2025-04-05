@@ -5,8 +5,8 @@ export default function logo() {
     
       <div className='logo'>
              <h1>
-                 <span style={{ color: 'black' }}>Ezy</span>
-                 <span style={{ color: 'blue' }}>Metrics</span>
+                 <span style={{ color: 'black' }}>Revenue</span>
+                 <span style={{ color: 'blue' }}>Hub</span>
              </h1>
         </div>
  

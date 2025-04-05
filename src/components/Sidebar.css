@@ -1,5 +1,5 @@
 .SidePanel {
-    background-color: #BCE6ff;
+    background-color: #cdcdcd;
     width: 320px;
     height: 1024px;
     margin: 0px 10px 10px 0px;
@@ -8,9 +8,14 @@
 
 a {
     text-decoration: none;
-    color: #06349A;
+    color: #142b9e;
     font-size: 43px;
     font-weight: bold;
+    position:sticky;
+}
+a:hover{
+    color:rgb(2, 2, 49);
+    font-size: 47px;
 }
 
 .refs {

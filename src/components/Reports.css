@@ -1,15 +1,17 @@
 /* General container styling */
+
 .reports-container {
+    /* width:100vh; */
     padding: 20px;
-    background-color: #f9f9f9; /* Light background for contrast */
+    background-color: #dca6a6; /* Light background for contrast */
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 #Reports-section{
-    width:100vw;
+    width:97.5vw;
     height:100vh;
     /* border:solid black; */
-    margin-top: 10px;
+    margin-top: -11px;
 }
 /* Heading styling */
 .reports-heading {
@@ -25,7 +27,7 @@
 
 .filter-section input {
     padding: 10px;
-    border: 1px solid #ccc; /* Light border */
+    border: 1px solid #7b6161; /* Light border */
     border-radius: 4px;
     width: 100%; /* Full width */
     max-width: 400px; /* Max width for the input */

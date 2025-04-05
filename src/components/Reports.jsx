@@ -1,21 +1,8 @@
 import React, { useState } from 'react';
-import './Reports.css'; // Import your CSS for styling
-// import { Bar } from 'react-chartjs-2'; // Example chart
+import './Reports.css'; 
 
 const Reports = () => {
-  // Sample data for the chart
-//   const data = {
-//     labels: ['January', 'February', 'March', 'April', 'May'],
-//     datasets: [
-//       {
-//         label: 'Sales Report',
-//         data: [12, 19, 3, 5, 2], // Example data
-//         backgroundColor: 'rgba(75, 192, 192, 0.6)',
-//       },
-//     ],
-//   };
 
-  // Example filter state
   const [filter, setFilter] = useState('');
 
   const handleFilterChange = (e) => {

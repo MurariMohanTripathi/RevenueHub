@@ -22,8 +22,8 @@ const BarChart = () => {
       {
         label: 'Sales Data',
         data: [65, 59, 80, 81, 56, 55, 40], // Example data
-        backgroundColor: 'rgba(75, 192, 192, 0.5)',
-        borderColor: 'rgb(75, 192, 192)',
+        backgroundColor: 'rgb(51, 86, 138)',
+        borderColor: 'rgb(0, 0, 0)',
         borderWidth: 1,
       },
     ],

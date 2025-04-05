@@ -30,7 +30,7 @@ const DashboardChart = () => {
         label: 'Sales',
         data: [65, 59, 80, 81, 56, 55, 40],
         fill: false,
-        borderColor: 'rgb(75, 192, 192)',
+        borderColor: 'rgba(58, 91, 91, 0.72)',
         tension: 0.1,
       },
     ],

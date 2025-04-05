@@ -17,7 +17,7 @@ const PieChart2 = () => {
     datasets: [
       {
         label: 'Fruit Distribution',
-        data: [12, 19, 3, 5, 2, 3], // Example data
+        data: [12, 19, 3, 5, 2, 3],
         backgroundColor: [
           'rgba(255, 99, 132, 0.6)',
           'rgba(54, 162, 235, 0.6)',
