@@ -1,8 +1,8 @@
-# EzyMetrics Dashboard
+# RevenueHub Dashboard
 
 ## Overview
 
-EzyMetrics Dashboard is a dynamic web application designed to provide insightful analytics and reporting features. This project aims to help users visualize their data through various customizable charts and manage their leads efficiently. Built with React, Chart.js, and React Router, the dashboard offers a user-friendly interface and smooth navigation.
+RevenueHub Dashboard is a dynamic web application designed to provide insightful analytics and reporting features. This project aims to help users visualize their data through various customizable charts and manage their leads efficiently. Built with React, Chart.js, and React Router, the dashboard offers a user-friendly interface and smooth navigation.
 
 ## Features
 
