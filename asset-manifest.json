@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RevenueHub/static/css/main.a5e7e6ac.css",
+    "main.js": "/RevenueHub/static/js/main.3ff16622.js",
+    "static/js/453.59b8a61b.chunk.js": "/RevenueHub/static/js/453.59b8a61b.chunk.js",
+    "index.html": "/RevenueHub/index.html",
+    "main.a5e7e6ac.css.map": "/RevenueHub/static/css/main.a5e7e6ac.css.map",
+    "main.3ff16622.js.map": "/RevenueHub/static/js/main.3ff16622.js.map",
+    "453.59b8a61b.chunk.js.map": "/RevenueHub/static/js/453.59b8a61b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5e7e6ac.css",
+    "static/js/main.3ff16622.js"
+  ]
+}
