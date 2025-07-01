@@ -7,41 +7,51 @@ import {
   Legend,
 } from 'chart.js';
 
-// Register the necessary components
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const PieChart2 = () => {
-  // Data for the pie chart
   const data = {
-    labels: ['spent', 'profit', 'investments', 'no.of customer', 'aquisition', 'Orange'],
+    labels: ['Spent', 'Profit', 'Investments', 'Customers', 'Acquisition', 'Misc'],
     datasets: [
       {
-        label: 'Fruit Distribution',
+        label: 'Category Distribution',
         data: [12, 19, 3, 5, 2, 3],
         backgroundColor: [
-          'rgba(255, 99, 132, 0.6)',
-          'rgba(54, 162, 235, 0.6)',
-          'rgba(255, 206, 86, 0.6)',
-          'rgba(75, 192, 192, 0.6)',
-          'rgba(153, 102, 255, 0.6)',
-          'rgba(255, 159, 64, 0.6)',
+          '#f87171', // red-400
+          '#60a5fa', // blue-400
+          '#facc15', // yellow-400
+          '#34d399', // green-400
+          '#a78bfa', // purple-400
+          '#fb923c', // orange-400
         ],
-        borderColor: 'rgba(255, 255, 255, 1)',
+        borderColor: '#ffffff',
         borderWidth: 2,
       },
     ],
   };
 
-  // Options for the pie chart
   const options = {
     responsive: true,
     maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        position: 'right',
+        labels: {
+          color: '#4b5563', // Tailwind gray-600
+          font: { size: 14 },
+        },
+      },
+    },
   };
 
   return (
-    <div style={{ width: '67%', height: '400px', margin: '9.1rem 1.1rem 1.1rem -5.9rem' }}>
-      <h2>Analysis for upcomming year</h2>
-      <Pie data={data} options={options} />
+    <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-6 w-full h-[400px] sm:h-[450px] md:h-[500px] lg:h-[500px] xl:h-[550px] transition-all duration-300">
+      <h2 className="text-xl md:text-2xl font-semibold mb-6 text-center text-gray-700 dark:text-gray-100">
+        📊 Category Distribution
+      </h2>
+      <div className="relative h-full w-full">
+        <Pie data={data} options={options} />
+      </div>
     </div>
   );
 };

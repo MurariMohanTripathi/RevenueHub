@@ -1,47 +1,54 @@
 import React from 'react';
 import { Pie } from 'react-chartjs-2';
-import {
-  Chart as ChartJS,
-  ArcElement,
-  Tooltip,
-  Legend,
-} from 'chart.js';
+import { Chart as ChartJS, ArcElement, Tooltip, Legend } from 'chart.js';
 
-// Register the necessary components
 ChartJS.register(ArcElement, Tooltip, Legend);
 
 const PieChart = () => {
-  // Data for the pie chart
   const data = {
-    labels: ['spent', 'profit', 'investments', 'no.of customer', 'aquisition', 'Orange'],
+    labels: ['Spent', 'Profit', 'Investments', 'Customers', 'Acquisition', 'Misc'],
     datasets: [
       {
-        label: 'ratio',
-        data: [12, 19, 3, 5, 2, 3], // Example data
+        label: 'Category Distribution',
+        data: [12, 19, 3, 5, 2, 3],
         backgroundColor: [
-          'rgba(255, 99, 132, 0.6)',
-          'rgba(54, 162, 235, 0.6)',
-          'rgba(255, 206, 86, 0.6)',
-          'rgba(75, 192, 192, 0.6)',
-          'rgba(153, 102, 255, 0.6)',
-          'rgba(255, 159, 64, 0.6)',
+          '#f87171', // red
+          '#60a5fa', // blue
+          '#facc15', // yellow
+          '#34d399', // green
+          '#a78bfa', // purple
+          '#fb923c', // orange
         ],
-        borderColor: 'rgba(255, 255, 255, 1)',
+        borderColor: '#ffffff',
         borderWidth: 2,
       },
     ],
   };
 
-  // Options for the pie chart
   const options = {
     responsive: true,
     maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        position: 'right',
+        labels: {
+          color: '#374151', // Tailwind gray-700
+          font: {
+            size: 14,
+          },
+        },
+      },
+    },
   };
 
   return (
-    <div style={{ width: '67%', height: '386px', margin: '11.1rem 1.1rem 3.1rem 12.7rem' }}>
-      <h2>Sales Reports</h2>
-      <Pie data={data} options={options} />
+    <div className="w-full max-w-4xl mx-auto bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-4 sm:p-6">
+      <h2 className="text-xl font-semibold mb-4 text-center text-gray-800 dark:text-gray-100">
+        💹 Sales Distribution
+      </h2>
+      <div className="relative w-full h-[300px] sm:h-[400px]">
+        <Pie data={data} options={options} />
+      </div>
     </div>
   );
 };
