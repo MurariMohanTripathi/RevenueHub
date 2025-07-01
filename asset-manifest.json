@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/RevenueHub/static/css/main.a5e7e6ac.css",
-    "main.js": "/RevenueHub/static/js/main.3ff16622.js",
+    "main.css": "/RevenueHub/static/css/main.4b1df299.css",
+    "main.js": "/RevenueHub/static/js/main.81e1169c.js",
     "static/js/453.59b8a61b.chunk.js": "/RevenueHub/static/js/453.59b8a61b.chunk.js",
     "index.html": "/RevenueHub/index.html",
-    "main.a5e7e6ac.css.map": "/RevenueHub/static/css/main.a5e7e6ac.css.map",
-    "main.3ff16622.js.map": "/RevenueHub/static/js/main.3ff16622.js.map",
+    "main.4b1df299.css.map": "/RevenueHub/static/css/main.4b1df299.css.map",
+    "main.81e1169c.js.map": "/RevenueHub/static/js/main.81e1169c.js.map",
     "453.59b8a61b.chunk.js.map": "/RevenueHub/static/js/453.59b8a61b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5e7e6ac.css",
-    "static/js/main.3ff16622.js"
+    "static/css/main.4b1df299.css",
+    "static/js/main.81e1169c.js"
   ]
 }
